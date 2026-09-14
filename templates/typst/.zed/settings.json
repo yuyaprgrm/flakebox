@@ -1,0 +1,18 @@
+{
+  "lsp": {
+    "tinymist": {
+      "settings": {
+        "formatterMode": "typstyle",
+        "formatterIndentSize": 2
+      }
+    }
+  },
+  "languages": {
+    "Typst": {
+      "format_on_save": "on",
+      "formatter": "language_server",
+      "hard_tabs": false,
+      "tab_size": 2
+    }
+  }
+}
