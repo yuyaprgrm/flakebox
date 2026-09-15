@@ -30,3 +30,14 @@ cargo run
 
 The development shell includes Cargo, rustfmt, and Clippy. Run `cargo test`,
 `cargo fmt`, and `cargo clippy` to check the project.
+
+## Go
+
+```console
+nix flake init -t github:yuyaprgrm/flakebox#go
+direnv allow
+go mod init example.com/hello
+```
+
+The development shell includes Go and gopls. Run `go fmt ./...`,
+`go test ./...`, and `go vet ./...` to check the project.

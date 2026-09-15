@@ -33,5 +33,15 @@
           Run `direnv allow`, then initialize a project with `cargo init`.
         '';
       };
+
+      templates.go = {
+        path = ./templates/go;
+        description = "Go development shell with gopls";
+        welcomeText = ''
+          # Go development environment
+
+          Run `direnv allow`, then initialize a module with `go mod init <module-path>`.
+        '';
+      };
     };
 }
