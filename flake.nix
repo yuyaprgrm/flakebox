@@ -21,6 +21,7 @@
           # upLaTeX development environment
 
           Run `direnv allow`, then build the sample document with `latexmk main.tex`.
+          The PDF will be written to `out/main.pdf`.
         '';
       };
 

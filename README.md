@@ -16,8 +16,8 @@ direnv allow
 latexmk main.tex
 ```
 
-The generated PDF is `main.pdf`. Run `latexmk -c` to remove intermediate
-build files.
+The generated PDF is `out/main.pdf`. Run `latexmk -c` to remove intermediate
+build files from `out/`.
 
 ## Rust
 
