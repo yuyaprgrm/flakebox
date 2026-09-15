@@ -18,3 +18,15 @@ latexmk main.tex
 
 The generated PDF is `main.pdf`. Run `latexmk -c` to remove intermediate
 build files.
+
+## Rust
+
+```console
+nix flake init -t github:yuyaprgrm/flakebox#rust
+direnv allow
+cargo init
+cargo run
+```
+
+The development shell includes Cargo, rustfmt, and Clippy. Run `cargo test`,
+`cargo fmt`, and `cargo clippy` to check the project.

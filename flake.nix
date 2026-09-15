@@ -23,5 +23,15 @@
           Run `direnv allow`, then build the sample document with `latexmk main.tex`.
         '';
       };
+
+      templates.rust = {
+        path = ./templates/rust;
+        description = "Rust development shell with Cargo, rustfmt, and Clippy";
+        welcomeText = ''
+          # Rust development environment
+
+          Run `direnv allow`, then initialize a project with `cargo init`.
+        '';
+      };
     };
 }
